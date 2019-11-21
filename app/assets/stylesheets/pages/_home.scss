@@ -79,7 +79,10 @@
 //ABOUT
 
 .about {
-  margin: 12vh 5vw;
+  margin-top: 9vh;
+  margin-bottom: 3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .questions {
@@ -154,7 +157,7 @@
     }
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
     .recent-work {
       grid-template-columns: 1fr;
     }
