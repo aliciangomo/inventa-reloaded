@@ -3,10 +3,21 @@
   background-image: url("banner3.jpg");
   background-repeat: no-repeat;
   background-position: top;
-  height: 60vh;
-  overflow: visible;
+  height: 44vh;
+  overflow: hidden;
   // position: relative;
+  margin: 0;
 }
+
+.red {
+  width: 100%;
+  height: 2vh;
+  background-color: $red;
+  border-color: $red;
+  margin: 0;
+  padding: 0;
+}
+
 
 .container-text {
   padding: 3vh 1vw 3vh 3vw;
@@ -18,6 +29,7 @@
 }
 
 .wrapper {
+  margin-top: 12vh;
   background-size: 100%;
   background-color: $red;
   height: fit-content;
