@@ -1,0 +1,27 @@
+<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title my-modal" id="exampleModalLabel">How can we help?</h4>
+        <button type="button" class="close close-button close-btn" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body">
+
+        <p class="main-text"> If you want to be contacted please provide your phone number and we will get nack to you as soon as possible. </p>
+
+        <%= form_tag contacts_path do%>
+
+          Your name: </br><%= text_field_tag 'name', '', class: "form-control", placeholder: "Your name", :required => true %></br>
+          Your email : </br><%= text_field_tag 'email','', class: "form-control", placeholder: "Your email", :required => true %></br>
+        Your phone number : </br><%= text_field_tag 'email','', class: "form-control", placeholder: "Your phone number" %></br>
+          Your message:<%= text_area_tag 'message', '', class: "form-control", placeholder: "Your message", :required => true%>
+          <br>
+          <%= submit_tag "Send message", :class => "btn button-primary w-100", id: "submit-btn" %>
+        <%end%>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+.button-primary {
+  background-color: $red;
+  color: $white;
+  font-size: 1em;
+  padding: 2vh;
+  width: 8vw;
+  border-radius: 8px;
+}
+
+.button-invisible {
+  background: transparent;
+  border: none !important;
+  font-size:0;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+

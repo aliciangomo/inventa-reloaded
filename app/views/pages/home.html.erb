@@ -1,2 +1,131 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+<div class="dashboardbanner">
+  <div class="container-text">
+      <h1 class="">Affordable design, data and technology advisory for start-ups and SMEs</h1>
+  </div>
+</div>
+
+<div class="company-statement">
+  <div class="about" >
+  <a class="anchor" id="about"></a>
+  <h2 class="main-subtitle" > About Invent@</h2>
+      <br>
+      <p class="main-text">At Invent@ we are passionate about entrepreneurs and small business and understand the positive impact these nascent businesses bring to the economy and to society as a whole.</p>
+      <br>
+      <p class="main-text">However many of these businesses can't afford the same kind of advisory services as bigger competitors.</p>
+      <br>
+
+      <p class="main-text">We want to democratize business consulting and make it available to new ventures.</p>
+  </div>
+
+  <div class="about">
+    <ul id="questions">
+      <li class="main-text">Have you got a business idea but dont know where to start?</li>
+      <li class="main-text">Have you got an opportunity to pitch your idea but need help making a robust business case?</li>
+       <li class="main-text">Are you looking to put together a strong pitch for investors?</li>
+      <li class="main-text">Do you need help designing your digital product or service proposition?</li>
+      <li class="main-text">Are you looking for an economical way to prototype your digital product or service?</li>
+      <li class="main-text" >Is your business growing and you need help ensuring stable operations that sustain scalability?</li>
+    </ul>
+  </div>
+
+  <div class="contact about" >
+    <a class="anchor" id="contact"></a>
+  <h2 class="main-subtitle" > Contact us </h2>
+  <br>
+  <p class="main-text">If you identify with any of the questions above feel free to contact us for a non-committal conversation. </p>
+  <p class="main-text">
+    We will be happy to explore options to help your business!
+  </p>
+  <br>
+  <br>
+  <div id="button-contact">
+  <%= link_to 'Get in touch!', new_contact_path, { :class => "button-primary button-contact nav-link", 'data-toggle' => 'modal', 'data-target' => '#contact-modal'} %>
+  </div>
+</div>
+
+  <div class="about" >
+    <a class="anchor" id="services"></a>
+    <br>
+    <h2 class="main-subtitle" > Our services</h2>
+    <p clas="secondary-text">(Click on each service for a description)</p>
+
+    <hr class="divider">
+      <div class="band-container">
+        <%= image_tag("idea.png", class: "bandicon btn-idea")%>
+        <%= image_tag("business_plan.png", class: "bandicon btn-bus") %>
+        <%= image_tag("product_design.png", class: "bandicon btn-des") %>
+        <%= image_tag("prototype.png", class: "bandicon btn-pro") %>
+        <%= image_tag("growth.png", class: "bandicon btn-gro") %>
+        </div>
+    <hr class="divider">
+    <br>
+
+    <div class="content">
+
+      <div class="idea-content">
+        <h1 class="second-subtitle"> Shapping my idea</h1>
+        <div class="service-container">
+        <%= image_tag("idea.png") %>
+        <%= image_tag("business_plan.png") %>
+        <%= image_tag("product_design.png") %>
+        </div>
+        <p class="main-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
+        <br>
+      </div>
+
+      <div class="bus-content">
+        <h1 class="second-subtitle"> Shapping my idea</h1>
+        <div class="service-container">
+        <%= image_tag("idea.png") %>
+        <%= image_tag("business_plan.png") %>
+        <%= image_tag("product_design.png") %>
+        </div>
+        <p class="main-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
+        <br>
+      </div>
+
+      <div class="des-content">
+        <h1 class="second-subtitle"> Shapping my idea</h1>
+        <div class="service-container">
+        <%= image_tag("idea.png") %>
+        <%= image_tag("business_plan.png") %>
+        <%= image_tag("product_design.png") %>
+        </div>
+        <p class="main-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
+        <br>
+      </div>
+
+      <div class="pro-content">
+        <h1 class="second-subtitle"> Shapping my idea</h1>
+        <div class="service-container">
+        <%= image_tag("idea.png") %>
+        <%= image_tag("business_plan.png") %>
+        <%= image_tag("product_design.png") %>
+        </div>
+        <p class="main-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
+        <br>
+      </div>
+
+      <div class="gro-content">
+        <h1 class="second-subtitle"> Shapping my idea</h1>
+        <div class="service-container">
+        <%= image_tag("idea.png") %>
+        <%= image_tag("business_plan.png") %>
+        <%= image_tag("product_design.png") %>
+        </div>
+        <p class="main-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
+        <br>
+      </div>
+  </div>
+
+  <div class="about" >
+    <a class="anchor" id="team"></a>
+    <br>
+    <h2 class="main-subtitle" > Our team</h2>
+    <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio numquam quae, quasi dicta quo! Magni ut suscipit at, dolorum iure omnis laborum in libero, incidunt saepe modi pariatur! Debitis libero fuga ratione eius culpa, ex atque totam molestiae optio dolorum nam facere quae iste adipisci perferendis tenetur voluptatem neque iure, sequi illum error corporis autem, placeat numquam. Atque consequuntur, odio, quo dolor dolorum officia nesciunt earum magnam accusamus commodi voluptates ipsum accusantium, corporis quibusdam praesentium qui enim quis a non ducimus at officiis? Qui vero facere ratione fugit, repellendus error sint sit quam illo maiores vel ut ipsam exercitationem ipsum dolorem ex perferendis dicta atque voluptates fugiat sapiente. Dicta doloremque, at odit consequuntur! Nesciunt hic necessitatibus animi qui doloremque repellat, cupiditate natus nam reprehenderit sunt maiores ab tempore veritatis cum voluptas, quas mollitia asperiores quaerat, unde possimus fuga. Distinctio officia odio quos totam corporis quasi minima illo cum. Quaerat incidunt deleniti quo, aut hic vel repellendus modi odit repellat officia porro quod harum quam, qui sed doloremque eum vero eveniet voluptatum alias nihil consequuntur laborum sapiente fugiat quisquam. Exercitationem illum magnam esse quaerat. Tempora debitis illum unde hic ad facere saepe repudiandae. Consequuntur recusandae quaerat nesciunt, repellendus expedita quod culpa.</p>
+</div>
+
+<%= render "contacts/new" %>
+
+

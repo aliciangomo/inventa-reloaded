@@ -15,6 +15,23 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
+
+#MY GEMS
+
+gem 'actionmailer', '~> 5.2.3'
+gem 'activemodel', '~> 5.2.3'
+gem 'rake'
+gem 'rdoc', ">= 4.3"
+gem 'mail_form'
+
+
+
+
+
+
+
+
+
 group :development do
   gem 'web-console', '>= 3.3.0'
 end

@@ -1,1 +1,126 @@
 // Specific CSS for your home-page
+
+.container-fluid {
+  width: fit-content;
+  overflow: none;
+}
+
+.main-subtitle {
+  font-size: 32px;
+  color: $red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.second-subtitle {
+  font-size: 28px;
+  color: $light-red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-text {
+  color: $dark-gray;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.secondary-text {
+  color: $gray;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.index-intro {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+
+.company-statement {
+  margin-top: 57px;
+  min-height: 300px;
+  background-color: $white;
+}
+
+.about {
+  // height: 50vh;
+  // display: flex;
+  // justify-content: space-between;
+  // align-tems: center;
+  margin: 7vh 5vw;
+}
+
+.about p {
+  width: 100%;
+  text-align: left;
+}
+
+#questions {
+  list-style-type: square;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6em;
+
+}
+
+#questions > li{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+
+// CONTACT
+
+.contact {
+  margin-top: 5vh;
+  text-align: center;
+  min-height: 200px;
+}
+
+.button-contact {
+  width: 40vw;
+  margin-bottom: 5vh;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#button-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.button-contact a :hover :active{
+  background-color: $red;
+  color: $white;
+
+}
+
+.main-container {
+  margin: 5vw 7vh;
+}
+
+
+//SERVICES
+
+.services {
+  margin-top: 57px;
+  min-height: 200px;
+}
+
+.divider {
+  border: $gray 4px solid;
+  width: 100%;
+}
+
+
+.my-modal {
+  color: $red;
+}
+
+#submit-btn {
+  font-weight: bold;
+  font-size: 1.2em;
+}

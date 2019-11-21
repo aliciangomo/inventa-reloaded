@@ -1,0 +1,42 @@
+// .band {
+//   width: 100%;
+//   display: block;
+//   margin-top: 3vh;
+//   margin-bottom: 3vh;
+// }
+
+.band-container {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+
+.bandicon {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.service-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.content {
+  border: $gray 3px solid;
+  padding: 5vh 5vw;
+  background-color: $white;
+}
+
+
+.bandicon {
+
+}
+
+
