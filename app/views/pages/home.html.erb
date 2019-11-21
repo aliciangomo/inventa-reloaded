@@ -1,54 +1,29 @@
 
-<div class="dashboardbanner">
-  <div class="container-text">
-      <h1 class="">Affordable design, data and technology advisory for start-ups and SMEs</h1>
-  </div>
+<div class="dashboardbanner"></div>
+
+<div class="container-text">
+  <h1 class="main-subtitle">Invent@ is a digital design and development studio</h1>
+  <br>
+  <p class="main-text">We are a small team of strategists, designers and developers passionate about helping entrepreneurs originate, build and grow start-ups and small businesses.</p>
 </div>
-
-<div class="company-statement">
-  <div class="about" >
-  <a class="anchor" id="about"></a>
-  <h2 class="main-subtitle" > About Invent@</h2>
-      <br>
-      <p class="main-text">At Invent@ we are passionate about entrepreneurs and small business and understand the positive impact these nascent businesses bring to the economy and to society as a whole.</p>
-      <br>
-      <p class="main-text">However many of these businesses can't afford the same kind of advisory services as bigger competitors.</p>
-      <br>
-
-      <p class="main-text">We want to democratize business consulting and make it available to new ventures.</p>
-  </div>
-
-  <div class="about">
+<!--
+<div class="about questions">
     <ul id="questions">
-      <li class="main-text">Have you got a business idea but dont know where to start?</li>
-      <li class="main-text">Have you got an opportunity to pitch your idea but need help making a robust business case?</li>
-       <li class="main-text">Are you looking to put together a strong pitch for investors?</li>
-      <li class="main-text">Do you need help designing your digital product or service proposition?</li>
-      <li class="main-text">Are you looking for an economical way to prototype your digital product or service?</li>
-      <li class="main-text" >Is your business growing and you need help ensuring stable operations that sustain scalability?</li>
+      <li class="main-text">Need help shaping your business idea?</li>
+      <li class="main-text">Looking for a robust business case?</li>
+       <li class="main-text">Want a strong pitch for investors?</li>
+      <li class="main-text">Want to design a digital product or service?</li>
+      <li class="main-text">Need a fast prototype of your product or service?</li>
+      <li class="main-text" >Looking to grow your business?</li>
     </ul>
-  </div>
+</div> -->
 
-  <div class="contact about" >
-    <a class="anchor" id="contact"></a>
-  <h2 class="main-subtitle" > Contact us </h2>
-  <br>
-  <p class="main-text">If you identify with any of the questions above feel free to contact us for a non-committal conversation. </p>
-  <p class="main-text">
-    We will be happy to explore options to help your business!
-  </p>
-  <br>
-  <br>
-  <div id="button-contact">
-  <%= link_to 'Get in touch!', new_contact_path, { :class => "button-primary button-contact nav-link", 'data-toggle' => 'modal', 'data-target' => '#contact-modal'} %>
-  </div>
-</div>
-
-  <div class="about" >
+<div class="about" >
     <a class="anchor" id="services"></a>
     <br>
-    <h2 class="main-subtitle" > Our services</h2>
-    <p clas="secondary-text">(Click on each service for a description)</p>
+    <h2 class="main-text-bold centered" > Our services</h2>
+    <p class="small-text centered">(Click on each service for a description)</p>
+    <br>
 
     <hr class="divider">
       <div class="band-container">
@@ -57,73 +32,148 @@
         <%= image_tag("product_design.png", class: "bandicon btn-des") %>
         <%= image_tag("prototype.png", class: "bandicon btn-pro") %>
         <%= image_tag("growth.png", class: "bandicon btn-gro") %>
-        </div>
+      </div>
     <hr class="divider">
     <br>
+    <br>
 
-    <div class="content">
-
-      <div class="idea-content">
-        <h1 class="second-subtitle"> Shapping my idea</h1>
-        <div class="service-container">
-        <%= image_tag("idea.png") %>
-        <%= image_tag("business_plan.png") %>
-        <%= image_tag("product_design.png") %>
-        </div>
-        <p class="main-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
+      <div class="idea-content speech-bubble speech-bubble:after d-none">
+        <h1 class="main-text-red-bold"> Need help shaping your business idea?</h1>
+        <p class="small-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
         <br>
       </div>
 
-      <div class="bus-content">
-        <h1 class="second-subtitle"> Shapping my idea</h1>
-        <div class="service-container">
-        <%= image_tag("idea.png") %>
-        <%= image_tag("business_plan.png") %>
-        <%= image_tag("product_design.png") %>
-        </div>
-        <p class="main-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
+      <div class="bus-content speech-bubble speech-bubble:after d-none">
+        <h1 class="main-text-red-bold"> Looking for a robust business plan or pitch deck?</h1>
+        <p class="small-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus a corporis porro quod voluptates explicabo aliquam numquam eos quam maxime nihil odio, vitae, cupiditate sequi repellendus accusamus quibusdam. Suscipit modi vitae nemo! Ratione quis, recusandae molestias autem officia corporis nobis quaerat nesciunt aperiam nemo, error sapiente. Animi, quas, saepe. Repellendus..</p>
         <br>
       </div>
 
-      <div class="des-content">
-        <h1 class="second-subtitle"> Shapping my idea</h1>
-        <div class="service-container">
-        <%= image_tag("idea.png") %>
-        <%= image_tag("business_plan.png") %>
-        <%= image_tag("product_design.png") %>
-        </div>
-        <p class="main-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
+      <div class="des-content speech-bubble speech-bubble:after d-none">
+        <h1 class="main-text-red-bold"> Want to design a digital product or service?</h1>
+        <p class="small-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus a corporis porro quod voluptates explicabo aliquam numquam eos quam maxime nihil odio, vitae, cupiditate sequi repellendus accusamus quibusdam. Suscipit modi vitae nemo! Ratione quis, recusandae molestias autem officia corporis nobis quaerat nesciunt aperiam nemo, error sapiente. Animi, quas, saepe. Repellendus..</p>
         <br>
       </div>
 
-      <div class="pro-content">
-        <h1 class="second-subtitle"> Shapping my idea</h1>
-        <div class="service-container">
-        <%= image_tag("idea.png") %>
-        <%= image_tag("business_plan.png") %>
-        <%= image_tag("product_design.png") %>
-        </div>
-        <p class="main-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
+      <div class="pro-content speech-bubble speech-bubble:after d-none">
+        <h1 class="main-text-red-bold"> Looking to build a fast prototype?</h1>
+        <p class="small-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus a corporis porro quod voluptates explicabo aliquam numquam eos quam maxime nihil odio, vitae, cupiditate sequi repellendus accusamus quibusdam. Suscipit modi vitae nemo! Ratione quis, recusandae molestias autem officia corporis nobis quaerat nesciunt aperiam nemo, error sapiente. Animi, quas, saepe. Repellendus.</p>
         <br>
       </div>
 
-      <div class="gro-content">
-        <h1 class="second-subtitle"> Shapping my idea</h1>
-        <div class="service-container">
-        <%= image_tag("idea.png") %>
-        <%= image_tag("business_plan.png") %>
-        <%= image_tag("product_design.png") %>
-        </div>
-        <p class="main-text"> We use design thinking techniques and input from the market and competitors, as well as input from users to help you define your idea more clearly, develop a product or service proposition that better meets the unfulfilled need and produce a "ligh business plan" to perform an initial go/no go decision.</p>
+      <div class="gro-content speech-bubble speech-bubble:after d-none">
+        <h1 class="main-text-red-bold"> Thinking about growing your business?</h1>
+        <p class="small-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus a corporis porro quod voluptates explicabo aliquam numquam eos quam maxime nihil odio, vitae, cupiditate sequi repellendus accusamus quibusdam. Suscipit modi vitae nemo! Ratione quis, recusandae molestias autem officia corporis nobis quaerat nesciunt aperiam nemo, error sapiente. Animi, quas, saepe. Repellendus.</p>
         <br>
       </div>
+</div>
+
+<div class="about" >
+    <a class="anchor" id="recent-work"></a>
+    <h1 class="main-text-bold centered mb-5"> Recent work </h1>
+    <div class="recent-work">
+
+        <div class="card-work">
+          <%= image_tag("Arthub.jpg") %>
+          <div class="card-work-infos">
+            <div>
+              <h2>ArtHub</h2>
+              <p>Web design, Web development, Creative Direction</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-work">
+          <%= image_tag("PamperMe.jpg") %>
+          <div class="card-work-infos">
+            <div>
+              <h2>Pamper Me</h2>
+              <p>App design, App development, Prototyping</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-work">
+          <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+          <div class="card-work-infos">
+            <div>
+              <h2>Alicia Art</h2>
+              <p>Web design, Web development, Creative Direction</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card-work">
+          <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+          <div class="card-work-infos">
+            <div>
+              <h2>Fit Fashion</h2>
+              <p>Web design, Web development, Branding, Creative Direction</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-work">
+          <%= image_tag("Arthub.jpg") %>
+          <div class="card-work-infos">
+            <div>
+              <h2>Inventa</h2>
+              <p>Web design, Web development, Creative Direction</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-work">
+          <%= image_tag("Arthub.jpg") %>
+          <div class="card-work-infos">
+            <div>
+              <h2>PetCentral</h2>
+              <p>Web design, Web development, Creative Direction</p>
+            </div>
+          </div>
+        </div>
+
+     </div>
   </div>
+
+
+
+  <div class="contact wrapper"  >
+    <a class="anchor" id="contact"></a>
+    <br>
+    <p class="main-text-white-bold">Whether you have an exciting new venture, an idea you want to prototype, an existing product that needs a refresh, or you just want to bounce some ideas around, we'd love to hear from you! </p>
+    <br>
+    <br>
+    <div id="button-contact">
+    <%= link_to 'Get in touch!', new_contact_path, { :class => "button-secondary button-contact nav-link", 'data-toggle' => 'modal', 'data-target' => '#contact-modal'} %>
+    </div>
+  </div>
+
 
   <div class="about" >
     <a class="anchor" id="team"></a>
     <br>
-    <h2 class="main-subtitle" > Our team</h2>
-    <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio numquam quae, quasi dicta quo! Magni ut suscipit at, dolorum iure omnis laborum in libero, incidunt saepe modi pariatur! Debitis libero fuga ratione eius culpa, ex atque totam molestiae optio dolorum nam facere quae iste adipisci perferendis tenetur voluptatem neque iure, sequi illum error corporis autem, placeat numquam. Atque consequuntur, odio, quo dolor dolorum officia nesciunt earum magnam accusamus commodi voluptates ipsum accusantium, corporis quibusdam praesentium qui enim quis a non ducimus at officiis? Qui vero facere ratione fugit, repellendus error sint sit quam illo maiores vel ut ipsam exercitationem ipsum dolorem ex perferendis dicta atque voluptates fugiat sapiente. Dicta doloremque, at odit consequuntur! Nesciunt hic necessitatibus animi qui doloremque repellat, cupiditate natus nam reprehenderit sunt maiores ab tempore veritatis cum voluptas, quas mollitia asperiores quaerat, unde possimus fuga. Distinctio officia odio quos totam corporis quasi minima illo cum. Quaerat incidunt deleniti quo, aut hic vel repellendus modi odit repellat officia porro quod harum quam, qui sed doloremque eum vero eveniet voluptatum alias nihil consequuntur laborum sapiente fugiat quisquam. Exercitationem illum magnam esse quaerat. Tempora debitis illum unde hic ad facere saepe repudiandae. Consequuntur recusandae quaerat nesciunt, repellendus expedita quod culpa.</p>
+    <h2 class="main-text-bold centered" > Our team </h2>
+    <p class="main-text">We are a group of strategist, designers and developers that are passionate about helping entrepreneurs test, prototype and launch their ideas. </p>
+    <p class="main-text">We combine experience in Strategy Consulting, User Experience Design, User Interface Design, Rapid Prototyping, Web Development and App Development to help you design, launch or grow your business.</p>
+
+
+
+    <div class="founder">
+    <%= image_tag("Alicia.png", class: "avatar-lg") %>
+    <p class="main-text"> <span class="main-text-bold">Alicia Ngomo - Strategist and full stack developer. </span>After many years working in digital strategy for big corporate clients I decided to get more involved in the actual design and delivery of digital products and services, and help smaller businesses with strategy. Besides ample experience in strategy cosulting, I am trained in design thinking methodologies, full-stack development.</p>
+    </div>
+
+    <div class="founder">
+    <%= image_tag("john.jpeg", class: "avatar-lg") %>
+    <p class="main-text"> <span class="main-text-bold">John Hart - Full stack developer. </span>I completed Le Wagon full-stack development bootcamp and have since participated in several projects involving the launch of a digital product or service. I build prototypes and final products using Ruby on Rails, HTML, CSS, Javascript and React as the main languages.</p>
+    </div>
+
+    <div class="founder">
+    <%= image_tag("lisa.jpeg", class: "avatar-lg") %>
+    <p class="main-text"> <span class="main-text-bold">Lisa Callum - Designer. </span>I am passionate about all things design! I have experience both in graphic design and video, and I bring that onto my design projects to help clients obtain really engaging digital experiences.</p>
+    </div>
 </div>
 
 <%= render "contacts/new" %>

@@ -1,7 +1,6 @@
 const toggleCollapsible = () => {
 
   const ideaButton = document.querySelector('.btn-idea');
-  console.log(ideaButton);
   const busButton = document.querySelector('.btn-bus');
   const desButton = document.querySelector('.btn-des');
   const proButton = document.querySelector('.btn-pro');

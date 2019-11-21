@@ -5,86 +5,109 @@
   overflow: none;
 }
 
-.main-subtitle {
-  font-size: 32px;
-  color: $red;
-  font-weight: bold;
+
+.centered {
   text-align: center;
 }
 
-.second-subtitle {
-  font-size: 28px;
-  color: $light-red;
-  font-weight: bold;
-  text-align: center;
+.main-subtitle {
+  font-size: 5.7vw;
+  color: $dark-gray;
+  font-weight: 700;
+  // text-align: left;
+  line-height: 102%;
 }
 
 .main-text {
   color: $dark-gray;
-  font-size: 1.5em;
-  text-align: left;
+  font-size: 2.5vw;
+  // text-align: left;
+  line-height: 122%;
+  font-weight: 400;
 }
 
-.secondary-text {
-  color: $gray;
-  font-size: 0.8em;
-  text-align: center;
+.main-text-bold {
+  color: $dark-gray;
+  font-size: 2.5vw;
+  // text-align: left;
+  line-height: 122%;
+  font-weight: 700;
 }
 
-.index-intro {
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+.main-text-white {
+  color: $white;
+  font-size: 2.5vw;
+  // text-align: left;
+  line-height: 122%;
+  font-weight: 400;
+}
+
+.main-text-white-bold {
+  color: $white;
+  font-size: 2.5vw;
+  // text-align: left;
+  line-height: 122%;
+  font-weight: 700;
+}
+
+.main-text-red-bold {
+  color: $red;
+  font-size: 2.5vw;
+  // text-align: left;
+  line-height: 122%;
+  font-weight: 700;
 }
 
 
-.company-statement {
-  margin-top: 57px;
-  min-height: 300px;
-  background-color: $white;
+
+.small-text {
+  color: $dark-gray;
+  font-size: 1.5vw;
+  // text-align: left;
+  font-weight: 300;
 }
+
+
+//ABOUT
 
 .about {
-  // height: 50vh;
-  // display: flex;
-  // justify-content: space-between;
-  // align-tems: center;
   margin: 7vh 5vw;
 }
 
-.about p {
-  width: 100%;
-  text-align: left;
+.questions {
+  height: 70vh;
 }
 
 #questions {
   list-style-type: square;
   list-style-position: inside;
   margin: 0;
+  margin-top: 10vh;
   padding: 0;
-  line-height: 1.6em;
+  line-height: 122%;
 
 }
 
 #questions > li{
-  margin-top: 1em;
+  margin-top: 2.1em;
   margin-bottom: 1em;
-  font-size: 1.2em;
 }
 
 
 // CONTACT
 
 .contact {
-  margin-top: 5vh;
+  margin-top: 2vh;
   text-align: center;
-  min-height: 200px;
+  min-height: fit-content;
+  padding: 3vh 5vw
 }
 
 .button-contact {
   width: 40vw;
   margin-bottom: 5vh;
-  font-weight: bold;
-  font-size: 1.2em;
+  font-weight: 400;
+  font-size: 2.1vw;
 }
 
 #button-contact {
@@ -92,15 +115,67 @@
   justify-content: center;
 }
 
+#submit-btn {
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
 .button-contact a :hover :active{
-  background-color: $red;
+  // background-color: $white;
   color: $white;
+  font-weight: 700;
 
 }
 
 .main-container {
   margin: 5vw 7vh;
 }
+
+
+// RECENT WORK
+
+.recent-work {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4vw;
+}
+
+.card-work {
+  overflow: hidden;
+  background: white;
+  // box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-work > img {
+  height: 40vh;
+  width: 100%;
+  object-fit: fill;
+}
+
+.card-work h2 {
+  font-size: 2.1vw;
+  font-weight: 700;
+  margin-bottom: 0.5vw;
+  color: $dark-gray
+}
+
+.card-work p {
+  font-size: 2.1vw;
+  opacity: .7;
+  margin: 0;
+  font-weight: 300;
+  color: $dark-gray;
+}
+
+
+.card-work .card-work-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
 
 
 //SERVICES
@@ -115,12 +190,29 @@
   width: 100%;
 }
 
-
 .my-modal {
   color: $red;
+  font-size: 2.5vw;
+  text-align: left;
+  line-height: 122%;
+  font-weight: 400;
 }
 
-#submit-btn {
-  font-weight: bold;
-  font-size: 1.2em;
+
+//TEAM
+
+.founder {
+  margin-top: 7vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.founder p {
+  margin-left: 7vw;
+}
+
+.founder img {
+
 }
