@@ -1,6 +1,6 @@
 
 <div class="dashboardbanner"></div>
-<hr class="red">
+<!-- <hr class="red"> -->
 <div class="container-text">
   <h1 class="main-subtitle">Invent@ is a digital design and development studio</h1>
   <br>
@@ -22,7 +22,7 @@
     <a class="anchor" id="services"></a>
     <br>
     <h2 class="secondary-subtitle centered" > Our services</h2>
-    <p class="small-text centered">(Click on each service for a description)</p>
+    <p class="small-text centered" style="font-style: italic">(Click on each service for a description)</p>
     <br>
 </div>
 
@@ -140,15 +140,16 @@
   </div>
 
 
-
-  <div class="contact wrapper"  >
-    <a class="anchor" id="contact"></a>
-    <br>
-    <p class="main-text-white-bold">Whether you have an exciting new venture, an idea you want to prototype, an existing product that needs a refresh, or you just want to bounce some ideas around, we'd love to hear from you! </p>
-    <br>
-    <br>
-    <div id="button-contact">
-    <%= link_to 'Get in touch!', new_contact_path, { :class => "button-secondary button-contact nav-link", 'data-toggle' => 'modal', 'data-target' => '#contact-modal'} %>
+  <div class=" wrapper"  >
+    <div class="contact">
+      <a class="anchor" id="contact"></a>
+      <br>
+      <p class="main-text-white-bold">Whether you have an exciting new venture, an idea you want to prototype, an existing product that needs a refresh, or you just want to bounce some ideas around, we'd love to hear from you! </p>
+      <br>
+      <br>
+      <div id="button-contact">
+      <%= link_to 'Get in touch!', new_contact_path, { :class => "button-secondary button-contact nav-link", 'data-toggle' => 'modal', 'data-target' => '#contact-modal'} %>
+      </div>
     </div>
   </div>
 

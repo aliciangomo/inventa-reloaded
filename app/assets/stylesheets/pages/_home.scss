@@ -19,19 +19,27 @@
 }
 
 .secondary-subtitle {
-  font-size: 5.7vw;
-  color: $light-gray;
+  font-size: 4vw;
+  color: $red;
   font-weight: 700;
   // text-align: left;
   line-height: 102%;
 }
 
+// .main-text {
+//   color: $dark-gray;
+//   font-size: 2.5vw;
+//   // text-align: left;
+//   line-height: 122%;
+//   font-weight: 400;
+// }
+
 .main-text {
+  font-size: 2.1vw;
+  opacity: .7;
+  margin: 0;
+  font-weight: 300;
   color: $dark-gray;
-  font-size: 2.5vw;
-  // text-align: left;
-  line-height: 122%;
-  font-weight: 400;
 }
 
 .main-text-bold {
@@ -108,10 +116,9 @@
 // CONTACT
 
 .contact {
-  margin-top: 2vh;
   text-align: center;
   min-height: fit-content;
-  padding: 3vh 5vw
+  padding: 10vh 10vw
 }
 
 .button-contact {
@@ -148,7 +155,7 @@
 .recent-work {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 4vw;
+  grid-gap: 4vw 7vh;
 }
 
 @media (max-width: 768px) {
@@ -165,13 +172,14 @@
 
 .card-work {
   overflow: hidden;
-  background: white;
+  background: #fcf1f0;
+  text-align: center;
 }
 
 .card-work > img {
   height: 50vh;
-  width: 100%;
-  object-fit: fill;
+  width: 90%;
+  padding: 1vh;
 }
 
 .card-work h2 {
@@ -196,6 +204,7 @@
   justify-content: space-between;
   align-items: flex-end;
   position: relative;
+  background: $white;
 }
 
 
