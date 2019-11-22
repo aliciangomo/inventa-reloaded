@@ -1,4 +1,4 @@
-// import "bootstrap";
+import "bootstrap";
 
 // import {toggleCollapsible} from "components/collapsibles.js";
 

@@ -122,16 +122,27 @@
 }
 
 .button-contact {
-  width: 40vw;
+  width: fit-content;
   margin-bottom: 5vh;
   font-weight: 400;
-  font-size: 2.1vw;
+  font-size: 3vw;
+  border-color: $white;
 }
 
 #button-contact {
   display: flex;
   justify-content: center;
 }
+
+.button-contact :hover {
+    color: $white;
+    font-weight: bold;
+  }
+
+.button-contact :active {
+    color: $white;
+    font-weight: bold;
+  }
 
 #submit-btn {
   font-weight: bold;
@@ -172,41 +183,40 @@
 
 .card-work {
   overflow: hidden;
+  height: 65vh;
   background: #fcf1f0;
-  text-align: center;
+  // text-align: center;
 }
 
 .card-work > img {
   height: 50vh;
   width: 90%;
   padding: 1vh;
+  text-align: center;
 }
 
-.card-work h2 {
+.card-work-infos {
+  padding: 16px;
+  height: 15vh;
+  background: $white;
+  text-align: left;
+  display: block;
+}
+
+.card-work-infos h2 {
   font-size: 2.1vw;
   font-weight: 700;
   margin-bottom: 0.5vw;
-  color: $dark-gray
+  color: $dark-gray;
 }
 
-.card-work p {
+.card-work-infos p {
   font-size: 2.1vw;
   opacity: .7;
   margin: 0;
   font-weight: 300;
   color: $dark-gray;
 }
-
-
-.card-work .card-work-infos {
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
-  background: $white;
-}
-
 
 
 //SERVICES

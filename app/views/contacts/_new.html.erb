@@ -16,7 +16,7 @@
 
           Your name: </br><%= text_field_tag 'name', '', class: "form-control small-text", placeholder: "Your name", :required => true %></br>
           Your email : </br><%= text_field_tag 'email','', class: "form-control small-text", placeholder: "Your email", :required => true %></br>
-        Your phone number : </br><%= text_field_tag 'email','', class: "form-control small-text", placeholder: "Your phone number" %></br>
+         <!--  Your phone number : </br><%#= text_field_tag 'phone','', class: "form-control small-text", placeholder: "Your phone number" %></br> -->
           Your message:<%= text_area_tag 'message', '', class: "form-control small-text", placeholder: "Your message", :required => true%>
           <br>
           <%= submit_tag "Send message", :class => "btn button-primary w-100", id: "submit-btn" %>
