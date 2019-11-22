@@ -126,12 +126,13 @@
   margin-bottom: 5vh;
   font-weight: 400;
   font-size: 3vw;
-  border-color: $white;
 }
 
 #button-contact {
   display: flex;
   justify-content: center;
+  border-color: $white;
+  width: fit-content;
 }
 
 .button-contact :hover {
