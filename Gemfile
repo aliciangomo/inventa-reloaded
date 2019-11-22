@@ -25,13 +25,6 @@ gem 'rdoc', ">= 4.3"
 gem 'mail_form'
 
 
-
-
-
-
-
-
-
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
