@@ -1,0 +1,5 @@
+meta_product_name: "Invent@"
+meta_title: "Invent@ - Digital design and development studio for small ventures"
+meta_description: "We provide services to entrepreneurs, small businesses and startups. Strategy, Web Design, Web Development, Prototyping"
+meta_image: "cover.jpg" # should exist in `app/assets/images/`
+twitter_account: "@aliciangomo"   # required for Twitter Cards
