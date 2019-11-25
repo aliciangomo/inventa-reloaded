@@ -1,9 +1,9 @@
 .dashboardbanner {
-  background-size: 100%;
+  background-size: cover;
   background-image: url("banner3.jpg");
   background-repeat: no-repeat;
   background-position: top;
-  height: 44vh;
+  min-height: 44vh;
   overflow: hidden;
   // position: relative;
   margin: 0;

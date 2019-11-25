@@ -23,6 +23,7 @@ gem 'activemodel', '~> 5.2.3'
 gem 'rake'
 gem 'rdoc', ">= 4.3"
 gem 'mail_form'
+gem 'jquery-rails'
 
 
 group :development do

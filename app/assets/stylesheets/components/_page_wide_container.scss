@@ -8,16 +8,15 @@
 .band-container {
   width: 100%;
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
   justify-content: space-between;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 5vh;
 }
 
 
-.bandicon {
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
+.band-container img {
+  width: 10%;
+  max-height: 20%;
 }
 
 .service-container {
@@ -34,10 +33,4 @@
   padding: 5vh 5vw;
   background-color: $white;
 }
-
-
-.bandicon {
-  cursor: pointer;
-}
-
 

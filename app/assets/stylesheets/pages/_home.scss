@@ -40,6 +40,13 @@
   margin: 0;
   font-weight: 300;
   color: $dark-gray;
+
+  @include media-breakpoint-down(md) {
+   font-size: 3vw;
+  }
+  @include media-breakpoint-down(sm) {
+    font-size: 3.5vw;
+  }
 }
 
 .main-text-bold {
@@ -48,6 +55,12 @@
   // text-align: left;
   line-height: 122%;
   font-weight: 700;
+  @include media-breakpoint-down(md) {
+   font-size: 3vw;
+  }
+  @include media-breakpoint-down(sm) {
+    font-size: 3.5vw;
+  }
 }
 
 .main-text-white {
@@ -56,6 +69,12 @@
   // text-align: left;
   line-height: 122%;
   font-weight: 400;
+  @include media-breakpoint-down(md) {
+   font-size: 3vw;
+  }
+  @include media-breakpoint-down(sm) {
+    font-size: 3.5vw;
+  }
 }
 
 .main-text-white-bold {
@@ -64,6 +83,13 @@
   // text-align: left;
   line-height: 122%;
   font-weight: 700;
+
+  @include media-breakpoint-down(md) {
+   font-size: 3vw;
+  }
+  @include media-breakpoint-down(sm) {
+    font-size: 3.5vw;
+  }
 }
 
 .main-text-red-bold {
@@ -72,6 +98,12 @@
   // text-align: left;
   line-height: 122%;
   font-weight: 700;
+  @include media-breakpoint-down(md) {
+   font-size: 3vw;
+  }
+  @include media-breakpoint-down(sm) {
+    font-size: 3.5vw;
+  }
 }
 
 
@@ -81,6 +113,13 @@
   font-size: 1.5vw;
   // text-align: left;
   font-weight: 300;
+
+  @include media-breakpoint-down(md) {
+   font-size: 2.1vw;
+  }
+  @include media-breakpoint-down(sm) {
+    font-size: 2.5vw;
+  }
 }
 
 
@@ -186,14 +225,13 @@
   overflow: hidden;
   height: 65vh;
   background: #fcf1f0;
-  // text-align: center;
+  text-align: center;
 }
 
 .card-work > img {
   height: 50vh;
   width: 90%;
   padding: 1vh;
-  text-align: center;
 }
 
 .card-work-infos {
