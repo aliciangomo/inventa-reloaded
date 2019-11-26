@@ -1,0 +1,90 @@
+.show-modal {
+  color: $red;
+  font-size: 2.5vw;
+  text-align: left;
+  line-height: 122%;
+  font-weight: 400;
+}
+
+
+.show-container {
+  width : 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.image-holder {
+  width: 60%;
+  // background-image: url(Arthub.jpg), url(PamperMe.jpg);
+  // background-size: cover;
+  // background-repeat: no-repeat, no-repeat;
+  // background-position: left top, left bottom;
+  // min-height: 800px;
+  overflow: hidden;
+  margin: 0;
+  display: block;
+  text-align: center;
+}
+
+.image-holder img {
+  width: 100%;
+  border: 3px $gray solid;
+  margin-bottom: 2vh;
+}
+
+
+.image-holder-pamper {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 12px;
+}
+
+.image-holder-pamper img {
+  // height: 100%;
+}
+
+.information {
+  width: 35%
+}
+
+
+#how {
+  list-style-type: square;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+#how > li {
+  margin-bottom: 0.5em;
+}
+
+.very-small-text {
+  color: $dark-gray;
+  font-size: 1vw;
+  // text-align: left;
+  font-weight: 300;
+
+  @include media-breakpoint-down(md) {
+   font-size: 1.2vw;
+  }
+  @include media-breakpoint-down(sm) {
+    font-size: 1.5vw;
+  }
+}
+
+.very-small-text-bold {
+  color: $dark-gray;
+  font-size: 1.2vw;
+  // text-align: left;
+  font-weight: 700;
+
+  @include media-breakpoint-down(md) {
+   font-size: 1.5vw;
+  }
+  @include media-breakpoint-down(sm) {
+    font-size: 1.7vw;
+  }
+}

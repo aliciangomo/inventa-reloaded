@@ -66,7 +66,7 @@
     <div class="recent-work">
 
         <div class="card-work">
-          <%= image_tag("Arthub.jpg") %>
+          <%= link_to image_tag("Arthub.jpg", class: "card-photo"), "#", { :class => "button-secondary button-contact", 'data-toggle' => 'modal', 'data-target' => '#arthub-modal'} %>
           <div class="card-work-infos">
             <div>
               <h2>ArtHub</h2>
@@ -76,7 +76,7 @@
         </div>
 
         <div class="card-work">
-          <%= image_tag("PamperMe.jpg") %>
+          <%= link_to image_tag("PamperMe.jpg", class: "card-photo"), "#", { :class => "button-secondary button-contact", 'data-toggle' => 'modal', 'data-target' => '#pamper-modal'} %>
           <div class="card-work-infos">
             <div>
               <h2>Pamper Me</h2>
@@ -86,7 +86,7 @@
         </div>
 
         <div class="card-work">
-          <%= image_tag("Alicia-art.png") %>
+          <%= link_to image_tag("Alicia-art.png", class: "card-photo"), "#", { :class => "button-secondary button-contact", 'data-toggle' => 'modal', 'data-target' => '#aliciaart-modal'} %>
           <div class="card-work-infos">
             <div>
               <h2>Alicia Art</h2>
@@ -97,7 +97,7 @@
 
 
         <div class="card-work">
-          <%= image_tag("Fitfashion.png") %>
+          <%= image_tag("Fitfashion.png", class: "card-photo") %>
           <div class="card-work-infos">
             <div>
               <h2>Fit Fashion</h2>
@@ -107,7 +107,7 @@
         </div>
 
         <div class="card-work">
-          <%= image_tag("Inventa.jpg") %>
+          <%= image_tag("Inventa.jpg", class: "card-photo") %>
           <div class="card-work-infos">
             <div>
               <h2>Invent@</h2>
@@ -117,7 +117,7 @@
         </div>
 
         <div class="card-work">
-          <%= image_tag("Arthub.jpg") %>
+          <%= image_tag("Arthub.jpg", class: "card-photo") %>
           <div class="card-work-infos">
             <div>
               <h2>MyPet</h2>
@@ -171,6 +171,9 @@
 </div>
 
 <%= render "contacts/new" %>
+<%= render "pages/arthub" %>
+<%= render "pages/aliciaart" %>
+<%= render "pages/pamper" %>
 
 <!-- <script>
 $(".btn-idea").on('click', function(){

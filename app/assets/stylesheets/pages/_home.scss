@@ -223,12 +223,12 @@
 
 .card-work {
   overflow: hidden;
-  height: 65vh;
+  height: 70vh;
   background: #fcf1f0;
   text-align: center;
 }
 
-.card-work > img {
+.card-photo {
   height: 50vh;
   width: 90%;
   padding: 1vh;
@@ -236,7 +236,7 @@
 
 .card-work-infos {
   padding: 16px;
-  height: 15vh;
+  height: 20vh;
   background: $white;
   text-align: left;
   display: block;
