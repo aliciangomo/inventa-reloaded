@@ -1,4 +1,4 @@
-<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="mypet-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -9,18 +9,24 @@
       </div>
 
       <div class="modal-body">
-
-        <p class="small-text"> If you want to be contacted please provide your phone number and we will get back to you as soon as possible. </p>
-
-        <%= form_tag contacts_path do%>
-
-          Your name: </br><%= text_field_tag 'name', '', class: "form-control small-text", placeholder: "Your name", :required => true %></br>
-          Your email : </br><%= text_field_tag 'email','', class: "form-control small-text", placeholder: "Your email", :required => true %></br>
-         <!--  Your phone number : </br><%#= text_field_tag 'phone','', class: "form-control small-text", placeholder: "Your phone number" %></br> -->
-          Your message:<%= text_area_tag 'message', '', class: "form-control small-text", placeholder: "Your message", :required => true%>
-          <br>
-          <%= submit_tag "Send message", :class => "btn button-primary w-100", id: "submit-btn" %>
-        <%end%>
+            <div class="show-container">
+            <div class="image-holder">
+              <%= image_tag("Arthub.jpg") %>
+            </div>
+            <div class="information">
+              <p class="very-small-text-bold">What we did</p>
+              <p class="very-small-text">Designed and developed a pet products e-commerce site.</p>
+              <p class="very-small-text-bold">How we did it</p>
+              <ul id="how">
+                <li class="very-small-text">Refined the product idea with a clear need, target customer and product pitch.</li>
+                <li class="very-small-text">Created the user journey, user stories and the required features.</li>
+                <li class="very-small-text">Prepared a Figma design of the website to agree on colours, imaginery etc </li>
+                <li class="very-small-text">Developed the website in one week following design sprints and agile methodology</li>
+              </ul>
+              <p class="very-small-text-bold">Visit the website at:</p>
+              <p class="very-small-text"> ⚙️ Coming soon </p>
+            </div>
+          </div>
       </div>
     </div>
   </div>

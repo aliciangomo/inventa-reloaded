@@ -287,12 +287,37 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+
 }
 
 .founder p {
   margin-left: 7vw;
+  width: 70%;
 }
 
 .founder img {
 
 }
+
+// ERROR PAGES
+.error {
+  margin: 5vw 7vh;
+}
+
+
+
+.error h1 {
+  color: $red;
+  font-size: 2.5vw;
+
+}
+
+.error p {
+  color: $dark-gray;
+  font-size: 2.1vw;
+}
+
+
+
+
+

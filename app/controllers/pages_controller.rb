@@ -19,4 +19,5 @@ class PagesController < ApplicationController
 
   def fitfashion
   end
+
 end

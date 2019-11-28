@@ -97,7 +97,7 @@
 
 
         <div class="card-work">
-          <%= image_tag("Fitfashion.png", class: "card-photo") %>
+          <%= link_to image_tag("Fitfashion.png", class: "card-photo"), "#", { :class => "button-secondary button-contact", 'data-toggle' => 'modal', 'data-target' => '#fitfashion-modal'} %>
           <div class="card-work-infos">
             <div>
               <h2>Fit Fashion</h2>
@@ -107,7 +107,7 @@
         </div>
 
         <div class="card-work">
-          <%= image_tag("Inventa.jpg", class: "card-photo") %>
+          <%= link_to image_tag("Inventa.jpg", class: "card-photo"), "#", { :class => "button-secondary button-contact", 'data-toggle' => 'modal', 'data-target' => '#inventa-modal'} %>
           <div class="card-work-infos">
             <div>
               <h2>Invent@</h2>
@@ -117,7 +117,7 @@
         </div>
 
         <div class="card-work">
-          <%= image_tag("Arthub.jpg", class: "card-photo") %>
+          <%= link_to image_tag("Arthub.jpg", class: "card-photo"), "#", { :class => "button-secondary button-contact", 'data-toggle' => 'modal', 'data-target' => '#mypet-modal'} %>
           <div class="card-work-infos">
             <div>
               <h2>MyPet</h2>
@@ -155,18 +155,18 @@
 
 
     <div class="founder">
-      <%= image_tag("Alicia.png", class: "avatar-lg") %>
+      <%= image_tag("Alicia.png", class: "avatar-lg ") %>
       <p class="main-text"> <span class="main-text-bold"> Alicia Ngomo - Strategist and full stack developer (Founder).</span> Founded Invent@ to help smaller businesses. I use my 14 years of experience in strategy, digital and design to help new founders better develop their ideas into compelling propositions with a basis on tangible prototypes. Apart from my consulting experience I am trained a full-stack developer as well as experience design thinker. </p>
     </div>
 
     <div class="founder">
-      <%= image_tag("john.jpeg", class: "avatar-lg") %>
-      <p class="main-text"> <span class="main-text-bold">John Hart - Full stack developer (Collaborator). </span>I completed Le Wagon full-stack development bootcamp and have since participated in several projects involving the launch of a digital product or service. I build prototypes and final products using Ruby on Rails, HTML, CSS, Javascript and React as the main languages.</p>
+      <%= image_tag("person.png", class: "avatar-lg ") %>
+      <p class="main-text"> <span class="main-text-bold"> Full stack developer (Collaborator). </span>I completed Le Wagon full-stack development bootcamp and have since participated in several projects involving the launch of a digital product or service. I build prototypes and final products using Ruby on Rails, HTML, CSS, Javascript and React as the main languages.</p>
     </div>
 
     <div class="founder">
-      <%= image_tag("lisa.jpeg", class: "avatar-lg") %>
-      <p class="main-text"> <span class="main-text-bold">Lisa Callum - Designer (Collaborator). </span>I am passionate about all things design! I have experience both in graphic design and video, and I bring that onto my design projects to help clients obtain really engaging digital experiences.</p>
+      <%= image_tag("person.png", class: "avatar-lg") %>
+      <p class="main-text"> <span class="main-text-bold"> Designer (Collaborator). </span>I am passionate about all things design! I have experience both in graphic design and video, and I bring that onto my design projects to help clients obtain really engaging digital experiences.</p>
     </div>
 </div>
 
@@ -174,6 +174,9 @@
 <%= render "pages/arthub" %>
 <%= render "pages/aliciaart" %>
 <%= render "pages/pamper" %>
+<%= render "pages/mypet" %>
+<%= render "pages/fitfashion" %>
+<%= render "pages/inventa" %>
 
 <!-- <script>
 $(".btn-idea").on('click', function(){
